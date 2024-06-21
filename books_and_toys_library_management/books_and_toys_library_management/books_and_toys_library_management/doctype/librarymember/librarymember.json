@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "LIB-MEM-.#####",
  "creation": "2024-06-21 14:27:04.382816",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -46,10 +47,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-21 14:56:25.194726",
+ "modified": "2024-06-21 16:09:36.435104",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "LibraryMember",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {

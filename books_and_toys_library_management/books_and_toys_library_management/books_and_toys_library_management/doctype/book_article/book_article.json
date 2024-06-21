@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2024-06-21 14:18:12.473301",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -11,8 +12,8 @@
   "status",
   "column_break_yjam",
   "isbn",
-  "total_stock",
-  "available_stock",
+  "total_quantity",
+  "stock",
   "attach_image_yajd"
  ],
  "fields": [
@@ -21,7 +22,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Title",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "author",
@@ -52,28 +54,29 @@
    "reqd": 1
   },
   {
-   "default": "1",
-   "fieldname": "total_stock",
-   "fieldtype": "Data",
-   "label": "Total Stock"
+   "fieldname": "attach_image_yajd",
+   "fieldtype": "Attach Image"
   },
   {
    "default": "1",
-   "fieldname": "available_stock",
-   "fieldtype": "Data",
+   "fieldname": "stock",
+   "fieldtype": "Int",
    "label": "Available Stock"
   },
   {
-   "fieldname": "attach_image_yajd",
-   "fieldtype": "Attach Image"
+   "default": "1",
+   "fieldname": "total_quantity",
+   "fieldtype": "Int",
+   "label": "Total Stock"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-21 14:56:33.070228",
+ "modified": "2024-06-21 17:04:23.220303",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Book Article",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

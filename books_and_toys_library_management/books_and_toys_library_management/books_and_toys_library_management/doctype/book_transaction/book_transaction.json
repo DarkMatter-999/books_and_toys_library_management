@@ -1,17 +1,19 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "LIB-BK-TR-.#####",
  "creation": "2024-06-21 14:38:48.852877",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "library_member",
   "full_name",
-  "article",
+  "title",
   "transaction_type",
   "from_date",
   "to_date",
-  "return_date"
+  "return_date",
+  "amended_from"
  ],
  "fields": [
   {
@@ -26,14 +28,6 @@
    "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Full Name"
-  },
-  {
-   "fieldname": "article",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Book Name",
-   "options": "Book Article",
-   "reqd": 1
   },
   {
    "fieldname": "transaction_type",
@@ -57,14 +51,34 @@
    "fieldname": "return_date",
    "fieldtype": "Date",
    "label": "Return Date"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book Name",
+   "options": "Book Article",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Book Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-06-21 15:44:19.284169",
+ "modified": "2024-06-21 17:01:24.550569",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Book Transaction",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {

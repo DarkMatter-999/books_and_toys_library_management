@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:toy_name",
  "creation": "2024-06-21 15:28:51.308659",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,15 +10,16 @@
   "toy_no",
   "status",
   "column_break_cpbe",
-  "total_stock",
-  "available_stock",
+  "total_quantity",
+  "stock",
   "number_of_parts"
  ],
  "fields": [
   {
    "fieldname": "toy_name",
    "fieldtype": "Data",
-   "label": "Toy Name"
+   "label": "Toy Name",
+   "unique": 1
   },
   {
    "fieldname": "toy_no",
@@ -37,29 +39,30 @@
   },
   {
    "default": "1",
-   "fieldname": "total_stock",
-   "fieldtype": "Data",
+   "fieldname": "number_of_parts",
+   "fieldtype": "Int",
+   "label": "Number of Parts"
+  },
+  {
+   "default": "1",
+   "fieldname": "total_quantity",
+   "fieldtype": "Int",
    "label": "Total Stock"
   },
   {
    "default": "1",
-   "fieldname": "available_stock",
-   "fieldtype": "Data",
+   "fieldname": "stock",
+   "fieldtype": "Int",
    "label": "Available Stock"
-  },
-  {
-   "default": "1",
-   "fieldname": "number_of_parts",
-   "fieldtype": "Data",
-   "label": "Number of Parts"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-21 15:34:39.635816",
+ "modified": "2024-06-21 17:17:14.184779",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Toy Article",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
