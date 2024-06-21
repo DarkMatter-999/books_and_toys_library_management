@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 14:18:12.473301",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "author",
+  "publisher",
+  "status",
+  "column_break_yjam",
+  "isbn",
+  "total_stock",
+  "available_stock",
+  "attach_image_yajd"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "default": "Available",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nIssued"
+  },
+  {
+   "fieldname": "column_break_yjam",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ISBN",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "total_stock",
+   "fieldtype": "Data",
+   "label": "Total Stock"
+  },
+  {
+   "default": "1",
+   "fieldname": "available_stock",
+   "fieldtype": "Data",
+   "label": "Available Stock"
+  },
+  {
+   "fieldname": "attach_image_yajd",
+   "fieldtype": "Attach Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-21 14:56:33.070228",
+ "modified_by": "Administrator",
+ "module": "Books And Toys Library Management",
+ "name": "BookArticle",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}
