@@ -45,12 +45,14 @@
   {
    "fieldname": "to_date",
    "fieldtype": "Date",
-   "label": "To Date"
+   "label": "To Date",
+   "reqd": 1
   },
   {
    "fieldname": "return_date",
    "fieldtype": "Date",
-   "label": "Return Date"
+   "label": "Return Date",
+   "reqd": 1
   },
   {
    "fieldname": "title",
@@ -74,7 +76,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-21 17:01:24.550569",
+ "modified": "2024-06-21 17:25:18.675928",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Book Transaction",
