@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-06-22 12:22:12.757951",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-06-22 12:22:12.757951",
+ "modified_by": "Administrator",
+ "module": "Books And Toys Library Management",
+ "name": "Book Stock Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Book Article",
+ "report_name": "Book Stock Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
