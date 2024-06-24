@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:toy_name",
  "creation": "2024-06-21 15:28:51.308659",
@@ -58,7 +59,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-21 17:17:14.184779",
+ "modified": "2024-06-24 10:44:34.444161",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Toy Article",
