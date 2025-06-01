@@ -51,8 +51,7 @@
    "fieldname": "isbn",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "ISBN",
-   "reqd": 1
+   "label": "ISBN"
   },
   {
    "fieldname": "attach_image_yajd",
