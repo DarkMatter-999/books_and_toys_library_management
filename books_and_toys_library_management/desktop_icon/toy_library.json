@@ -11,13 +11,26 @@
  "label": "Toy Library",
  "link_to": "Toy Library",
  "link_type": "Workspace Sidebar",
- "logo_url": "/private/files/library books.png",
- "modified": "2026-02-12 08:25:55.558258",
+ "logo_url": "/files/books.png",
+ "modified": "2026-02-17 03:50:42.804881",
  "modified_by": "Administrator",
  "name": "Toy Library",
  "owner": "Administrator",
  "restrict_removal": 1,
- "roles": [],
+ "roles": [
+  {
+   "role": "LIB - Library Manager"
+  },
+  {
+   "role": "LIB - Library Staff"
+  },
+  {
+   "role": "LIB - Library User"
+  },
+  {
+   "role": "LIB - Library Member"
+  }
+ ],
  "sidebar": "Toy Library",
  "standard": 1
 }
