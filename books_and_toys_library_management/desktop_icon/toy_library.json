@@ -1,0 +1,37 @@
+{
+ "app": "books_and_toys_library_management",
+ "bg_color": "blue",
+ "creation": "2026-02-09 09:59:30.613045",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon": "edit",
+ "icon_type": "Link",
+ "idx": 60,
+ "label": "Toy Library",
+ "link_to": "Toy Library",
+ "link_type": "Workspace Sidebar",
+ "logo_url": "/files/books.png",
+ "modified": "2026-02-18 10:03:37.530507",
+ "modified_by": "Administrator",
+ "name": "Toy Library",
+ "name1": "Toy Library",
+ "owner": "Administrator",
+ "restrict_removal": 1,
+ "roles": [
+  {
+   "role": "LIB - Library Manager"
+  },
+  {
+   "role": "LIB - Library Staff"
+  },
+  {
+   "role": "LIB - Library User"
+  },
+  {
+   "role": "LIB - Library Member"
+  }
+ ],
+ "sidebar": "Toy Library",
+ "standard": 1
+}

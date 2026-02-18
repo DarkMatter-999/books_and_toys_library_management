@@ -1,4 +1,5 @@
 {
+ "app": "books_and_toys_library_management",
  "charts": [],
  "content": "[{\"id\":\"5D4SEVNP6E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Toy Library</b></span>\",\"col\":12}},{\"id\":\"IyAEKyLnk-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"LibraryMember\",\"col\":3}},{\"id\":\"1UySm6mZh1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Book Article\",\"col\":3}},{\"id\":\"SY2xtdNote\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Toy Article\",\"col\":3}},{\"id\":\"yYARCKOyXP\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VnGiqwAdxM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Book Transaction\",\"col\":3}},{\"id\":\"zAqnxINrxO\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Toy Transaction\",\"col\":3}},{\"id\":\"cAWfrcAsGG\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3D5JmsCsbv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Settings\",\"col\":3}},{\"id\":\"FROj1aSzBg\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"nf0fI6bKpI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Book Stock Report\",\"col\":3}},{\"id\":\"-A9b0gu0JC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Toy Stock Report\",\"col\":3}}]",
  "creation": "2024-06-21 15:04:30.752791",
@@ -13,7 +14,7 @@
  "is_hidden": 0,
  "label": "Toy Library",
  "links": [],
- "modified": "2024-06-23 11:45:21.507796",
+ "modified": "2026-02-16 13:26:59.686285",
  "modified_by": "Administrator",
  "module": "Books And Toys Library Management",
  "name": "Toy Library",
@@ -22,7 +23,17 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "EDU - Academics User"
+  },
+  {
+   "role": "EDU - Education Manager"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
  "sequence_id": 40.0,
  "shortcuts": [
   {
@@ -30,6 +41,7 @@
    "doc_view": "List",
    "label": "Book Stock Report",
    "link_to": "Book Stock Report",
+   "report_ref_doctype": "Book Article",
    "type": "Report"
   },
   {
@@ -37,6 +49,7 @@
    "doc_view": "List",
    "label": "Toy Stock Report",
    "link_to": "Toy Stock Report",
+   "report_ref_doctype": "Toy Article",
    "type": "Report"
   },
   {
@@ -88,5 +101,6 @@
    "type": "DocType"
   }
  ],
- "title": "Toy Library"
+ "title": "Toy Library",
+ "type": "Workspace"
 }
