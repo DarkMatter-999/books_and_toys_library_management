@@ -12,9 +12,10 @@
  "link_to": "Toy Library",
  "link_type": "Workspace Sidebar",
  "logo_url": "/files/books.png",
- "modified": "2026-02-17 03:50:42.804881",
+ "modified": "2026-02-18 10:03:37.530507",
  "modified_by": "Administrator",
  "name": "Toy Library",
+ "name1": "Toy Library",
  "owner": "Administrator",
  "restrict_removal": 1,
  "roles": [
